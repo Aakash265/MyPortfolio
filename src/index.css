@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Prompt", sans-serif;
+    scroll-behavior: smooth;
+    color-scheme: dark;
+    --red: #ff0055;
+}
+
+.progress-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 10px;
+  background: var(--red);
+  transform-origin: 0%;
+}
+
+.stone-gradient {
+    background: #292626;
+    background: linear-gradient(-90deg, #1f1e21 0%, rgba(60, 51, 80, 0.577) 100%);
+    background: -webkit-linear-gradient(
+      -90deg,
+      #bab6b6 0%,
+      rgba(174, 174, 180, 0) 100%
+    );
+  }
+
+.content{
+    background-color: transparent;
+    background-image:       linear-gradient(0deg, transparent 24%, rgba(255, 255, 255, .05) 25%, rgba(255, 255, 255, .05) 26%, transparent 27%, transparent 74%, rgba(255, 255, 255, .05) 75%, rgba(255, 255, 255, .05) 76%, transparent 77%, transparent), linear-gradient(90deg, transparent 24%, rgba(255, 255, 255, .05) 25%, rgba(255, 255, 255, .05) 26%, transparent 27%, transparent 74%, rgba(255, 255, 255, .05) 75%, rgba(255, 255, 255, .05) 76%, transparent 77%, transparent);
+  /* height:100%; */
+  background-size:50px 50px;
+}
+
+.bg_main {
+    background-image: url("./assets/bg_main.png");
+}
+
+.ball-color {
+    background-color: rgb(147, 147, 121);
+}
+
+.stone-gradient {
+    background: #a5a0a0;
+    background: linear-gradient(-90deg, #5c5862 0%, rgba(60, 51, 80, 0.577) 100%);
+    background: -webkit-linear-gradient(
+      -90deg,
+      #bab6b6 0%,
+      rgba(174, 174, 180, 0) 100%
+    );
+}
+
+.button-resume {
+  transition: 0.3s;
+}
+
+.button-more {
+  transition: 0.3s;
+  border-width: 2px;
+  border-color: #67636d;
+}
+
+.button-resume:hover {
+  padding-right: 3rem;
+  padding-left: 3rem;
+}
+
+.button-more:hover {
+padding-right: 3.5rem;
+padding-left: 3.5rem;
+}
