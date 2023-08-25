@@ -6,8 +6,8 @@ import About from "./components/About";
 
 const App = () => {
   return (
-    <div className="relative z-0 bg-neutral-700">
-      <div className="content h-screen">
+    <div className="relative z-0 bg-white">
+      <div className="w-full h-screen">
         <Navbar />
         <Hero />
         <About />

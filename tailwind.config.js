@@ -10,18 +10,18 @@ export default {
 
       },
       backgroundImage : {
-        "main": "url('https://static.vecteezy.com/system/resources/previews/004/770/479/original/black-and-gray-water-color-and-gradient-and-white-with-colorful-grunge-texture-and-abstract-vintage-dirty-free-photo.jpg')",
+        "main": "url('./src/assets/hero_pic.png')",
       },
-      boxShadow: {
-        card: "0px 35px 120px -15px black",
-      },
-      dropShadow: {
-        '3xl': '0 35px 35px rgba(0, 0, 0, 0.25)',
-        '4xl': [
-            '0 35px 35px rgba(0, 0, 0, 0)',
-            '0 45px 65px rgba(999, 999, 999, 999)'
-        ]
-      }
+      // boxShadow: {
+      //   card: "0px 35px 120px -15px black",
+      // },
+      // dropShadow: {
+      //   '3xl': '0 35px 35px rgba(0, 0, 0, 0.25)',
+      //   '4xl': [
+      //       '0 35px 35px rgba(0, 0, 0, 0)',
+      //       '0 45px 65px rgba(999, 999, 999, 999)'
+      //   ]
+      // }
     },
   },
   plugins: [],
