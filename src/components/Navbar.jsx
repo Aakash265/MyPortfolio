@@ -14,7 +14,7 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false);
   return (
     <div>
-      <nav className="bg-white w-full text-white flex items-center fixed px-6 sm:px-16 py-2 sm:py-5 z-10">
+      <nav className="bg-black w-full text-white flex items-center fixed px-6 sm:px-16 py-2 sm:py-5 z-10 nav-opacity">
         <div className="w-full flex justify-between items-center mx-auto max-w-7xl">
           <Link
             to="/"
@@ -29,7 +29,7 @@ const Navbar = () => {
               alt="logo"
               className="w-8 h-8 object-contain rounded-full mr-3"
             />
-            <p className="text-black sm:text-[20px] font-bold cursor-pointer flex">
+            <p className="text-white sm:text-[20px] font-bold cursor-pointer flex">
               AAKASH
               <span className="sm:block hidden">
                 &nbsp; | &nbsp;WEB DEVELOPER
@@ -44,8 +44,8 @@ const Navbar = () => {
                 whileTap={{ scale: 0.8 }}
                 onClick={() => setActive(link.title)}
                 className={`${
-                  active === link.title ? "text-neutral-900" : "text-zinc-700"
-                } hover:text-black text-[18px] font-medium cursor-pointer`}
+                  active === link.title ? "text-neutral-400" : "text-zinc-400"
+                } hover:text-white text-[18px] font-medium cursor-pointer`}
               >
                 <a href={`#${link.id}`}>{link.title}</a>
               </motion.li>

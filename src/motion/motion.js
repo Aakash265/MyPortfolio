@@ -1,4 +1,4 @@
-export const textVariant = (delay) => {
+export const rightVariant = (delay) => {
     return {
       hidden: {
         x: -50,
@@ -16,7 +16,7 @@ export const textVariant = (delay) => {
     };
   };
 
-export const paraVariant = (delay) => {
+export const leftVariant = (delay) => {
     return {
       hidden: {
         x: 50,
@@ -29,6 +29,57 @@ export const paraVariant = (delay) => {
           type: "spring",
           duration: 1,
           delay: delay,
+        },
+      },
+    };
+  };
+
+export const hiddenVariant = (delay) => {
+    return {
+      hidden: {
+        y: 80,
+        opacity: 0,
+      },
+      show: {
+        y: 0,
+        opacity: 1,
+        transition: {
+          type: "spring",
+          duration: 1.3,
+          delay: delay,
+        },
+      },
+    };
+  };
+
+  export const fadeIn = (direction, type, delay, duration) => {
+    return {
+      hidden: {
+        x: direction === "left" ? 100 : direction === "right" ? -100 : 0,
+        y: direction === "up" ? 100 : direction === "down" ? -100 : 0,
+        opacity: 0,
+      },
+      show: {
+        x: 0,
+        y: 0,
+        opacity: 1,
+        transition: {
+          type: type,
+          delay: delay,
+          duration: duration,
+          ease: "easeOut",
+        },
+      },
+    };
+  };
+
+  export const staggerContainer = (staggerChildren, delayChildren) => {
+    return {
+      hidden: {},
+      show: {
+        transition: {
+          staggerChildren: staggerChildren,
+          delayChildren: delayChildren || 0,
         },
       },
     };
