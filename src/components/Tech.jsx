@@ -21,12 +21,12 @@ const Tech = () => {
         variants={leftVariant()}
         initial="hidden"
         whileInView="show"
-        className="mt-4 text-[20px] max-w-3xl text-gray-400"
+        className="mt-6 sm:gap-10 text-[20px] max-w-3xl text-gray-400"
       >
         <div className="flex flex-col">
           <div className="flex flex-col">
             <h3>Frontend Technologies:</h3>
-            <div className="flex flex-row gap-6">
+            <div className="flex flex-row gap-4 sm:gap-6">
               <motion.img whileHover={{scale: 1.3}} src={html} alt="" className="rounded-full w-10 h-10 mt-3 mb-8" />
               <motion.img whileHover={{scale: 1.3}} src={css} alt="" className="w-10 h-10 mt-3 mb-8" />
               <motion.img whileHover={{scale: 1.3}}
@@ -41,14 +41,14 @@ const Tech = () => {
           </div>
           <div className="flex flex-col">
             <h3>Server side Technologies:</h3>
-            <div className="flex flex-row gap-6">
+            <div className="flex flex-row gap-4 sm:gap-6">
             <motion.img whileHover={{scale: 1.3}} src={node} alt="" className="rounded-full w-10 h-10 mt-3 mb-8" />
             <motion.img whileHover={{scale: 1.3}} src={python} alt="" className="w-10 h-10 mt-3 mb-8" />
             </div>
           </div>
           <div className="flex flex-col">
             <h3>Database:</h3>
-            <div className="flex flex-row gap-6">
+            <div className="flex flex-row gap-4 sm:gap-6">
               <motion.img whileHover={{scale: 1.3}} src={sql} alt="" className="w-16 h-10 mt-3 mb-8" />
               <motion.img whileHover={{scale: 1.3}} src={mongo} alt="" className="rounded-full w-10 h-10 mt-3 mb-8" />
             </div>
@@ -59,14 +59,14 @@ const Tech = () => {
           </div>
           <div className="flex flex-col">
             <h3>Other Programming Languages:</h3>
-           <div className="flex flex-row gap-6">
+           <div className="flex flex-row gap-4 sm:gap-6">
            <motion.img whileHover={{scale: 1.3}} src={cpp} alt="" className="w-10 h-10 mt-3 mb-8" />
             <motion.img whileHover={{scale: 1.3}} src={java} alt="" className="w-10 h-10 mt-3 mb-8" />
            </div>
           </div>
           <div className="flex flex-col">
             <h3>Development IDEs:</h3>
-            <div className="flex flex-row gap-6">
+            <div className="flex flex-row gap-4 sm:gap-6">
             <motion.img whileHover={{scale: 1.3}} src={vscode} alt="" className="w-10 h-10 mt-3 mb-8" />
             <motion.img whileHover={{scale: 1.3}} src={intellij} alt="" className="w-10 h-10 mt-3 mb-8" />
             </div>

@@ -8,6 +8,7 @@ import location from "./location.png"
 import herobg from "./herobg.png"
 import flag from "./flag.png"
 import menu from "./menu.svg"
+import close from "./close.svg"
 
 import css from "./Tech/css.png"
 import django from "./Tech/django.png"
@@ -35,6 +36,7 @@ export{
     herobg,
     flag,
     menu,
+    close,
     css,
     django,
     git,

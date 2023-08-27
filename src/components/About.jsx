@@ -15,7 +15,7 @@ const Card = ({index, title, icon}) => {
         whileInView="show"
         animate={{ scale: 1 }}
         whileHover={{ scale: 1.2 }}
-        className="w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card"
+        className="w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card ml-10 sm:ml-0"
       >
         <div className="bg-neutral-900 rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col">
           <img src={icon} alt={title} className="w-16 h-16 object-contain" />

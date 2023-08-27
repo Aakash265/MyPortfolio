@@ -3,12 +3,12 @@
 @tailwind utilities;
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Prompt", sans-serif;
-    scroll-behavior: smooth;
-    color-scheme: dark;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Prompt", sans-serif;
+  scroll-behavior: smooth;
+  color-scheme: dark;
 }
 
 .hash-span {
@@ -30,4 +30,10 @@
   background: "#e73cf6";
   background: linear-gradient(90.13deg, #e73cf6 1.9%, #e63030 97.5%);
   background: -webkit-linear-gradient(-90.13deg, #e73cf6 1.9%, #e63030 97.5%);
+}
+
+.black-gradient {
+  background: #000000;
+  background: -webkit-linear-gradient(to right, #434343, #000000);
+  background: linear-gradient(to right, #434343, #000000);
 }

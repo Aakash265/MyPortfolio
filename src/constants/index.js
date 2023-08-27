@@ -24,12 +24,6 @@ export const navLinks = [
     }
 ]
 
-export const urls = [
-    {
-        github_link: "https://www.github.com/Aakash265",
-    }
-]
-
 export const services = [
     {
       title: "Frontend Developer",
