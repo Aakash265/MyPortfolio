@@ -37,3 +37,72 @@
   background: -webkit-linear-gradient(to right, #434343, #000000);
   background: linear-gradient(to right, #434343, #000000);
 }
+
+.blue {
+  color: rgb(47, 165, 204);
+}
+
+.green {
+  color: rgb(42, 198, 42);
+}
+
+.violet {
+  color: rgb(169, 116, 218);
+}
+
+.yellow {
+  color: rgb(220, 220, 50);
+}
+
+.orange {
+  color: orange;
+}
+
+.sun {
+  box-shadow: 0 0 4em rgb(238, 238, 84);
+}
+
+.earth, .moon {
+  border-style: solid;
+  border-color: white transparent transparent transparent;
+  border-width: 0.1em 0.1em 0 0;
+  border-radius: 50%;
+}
+
+.earth {
+  width: 30em;
+  height: 30em;
+  animation: orbit 36.5s linear infinite;
+}
+
+.moon {
+  top: 0;
+  right: 0;
+  width: 8em;
+  height: 8em;
+  animation: orbit 2.7s linear infinite;
+}
+
+.earth::before,
+.moon::before {
+  position: absolute;
+  border-radius: 50%;
+}
+
+.earth::before {
+  top: 2.8em;
+  right: 3.5em;
+  box-shadow: 0 0 1em rgb(84, 238, 233);
+}
+
+.moon::before {
+  top: 0.8em;
+  right: 0.2em;
+  box-shadow: 0 0 0.5em rgb(200, 218, 217);
+}
+
+@keyframes orbit {
+  to {
+    transform: rotate(360deg);
+  }
+}

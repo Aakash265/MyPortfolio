@@ -15,7 +15,7 @@ const Navbar = () => {
       <nav className="bg-black w-full text-white flex items-center fixed px-6 sm:px-16 py-2 sm:py-5 z-10 nav-opacity">
         <div className="w-full flex justify-between items-center mx-auto max-w-7xl">
           <Link
-            to="/"
+            to="/" 
             onClick={() => {
               setActive("");
               window.scrollTo(0, 0);

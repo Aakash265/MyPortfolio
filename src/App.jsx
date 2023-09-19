@@ -4,6 +4,8 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import About from "./components/About";
 import Tech from "./components/Tech";
+import Project from "./components/Project";
+import Contact from "./components/Contact";
 
 const App = () => {
   return (
@@ -14,6 +16,8 @@ const App = () => {
       </div>
       <About />
       <Tech />
+      <Project />
+      <Contact />
     </div>
   );
 };

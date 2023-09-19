@@ -17,7 +17,7 @@ const Hero = () => {
               whileHover={{ scale: 1.3 }}
             />
             <p className="flex-row font-medium text-gray-100 text-[20px] ml-2">
-              India,&nbsp;
+            <b>भारत</b>&nbsp;(India),&nbsp;
             </p>
             <img src={flag} alt="Indian_flag" className="w-6 h-6 mt-[3px]" />
           </div>

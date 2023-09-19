@@ -10,10 +10,10 @@ const Tech = () => {
     <div>
       <motion.div variants={rightVariant()} initial="hidden" whileInView="show">
         <p className="sm:text-[18px] text-[14px] text-rose-600 uppercase tracking-wider">
-          What am I familiar with
+          What I am familiar with
         </p>
         <h2 className="text-white font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px]">
-          My Tech Stack
+          Tech Stack
         </h2>
       </motion.div>
 
@@ -67,8 +67,8 @@ const Tech = () => {
           <div className="flex flex-col">
             <h3>Development IDEs:</h3>
             <div className="flex flex-row gap-4 sm:gap-6">
-            <motion.img whileHover={{scale: 1.3}} src={vscode} alt="" className="w-10 h-10 mt-3 mb-8" />
-            <motion.img whileHover={{scale: 1.3}} src={intellij} alt="" className="w-10 h-10 mt-3 mb-8" />
+            <motion.img whileHover={{scale: 1.3}} src={vscode} alt="" className="w-10 h-10 mt-3" />
+            <motion.img whileHover={{scale: 1.3}} src={intellij} alt="" className="w-10 h-10 mt-3" />
             </div>
           </div>
         </div>

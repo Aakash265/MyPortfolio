@@ -1,6 +1,5 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { Tilt } from "react-tilt";
 
 import { services } from "../constants";
 import { fadeIn, hiddenVariant, leftVariant, rightVariant } from "../motion/motion";

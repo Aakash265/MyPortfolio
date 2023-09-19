@@ -15,13 +15,6 @@ export default {
       boxShadow: {
         card: "0px 35px 120px -15px #211e35",
       },
-      // dropShadow: {
-      //   '3xl': '0 35px 35px rgba(0, 0, 0, 0.25)',
-      //   '4xl': [
-      //       '0 35px 35px rgba(0, 0, 0, 0)',
-      //       '0 45px 65px rgba(999, 999, 999, 999)'
-      //   ]
-      // }
     },
   },
   plugins: [],
